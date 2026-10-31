@@ -29,6 +29,9 @@ class _TestApp extends ConsumerWidget {
 void main() {
   testWidgets('UI switches language instantly and saves the choice', (tester) async {
     SharedPreferences.setMockInitialValues({});
+       tester.view.physicalSize = const Size(1080, 2400);
+   tester.view.devicePixelRatio = 1.0;
+   addTearDown(tester.view.reset);
     final prefs = await SharedPreferences.getInstance();
     await tester.pumpWidget(ProviderScope(
       overrides: [sharedPrefsProvider.overrideWithValue(prefs)],
