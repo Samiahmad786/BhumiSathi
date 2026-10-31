@@ -8,7 +8,7 @@ if [ ! -d android ]; then
   rm -rf lib test && cp -r /tmp/bs_bak/lib /tmp/bs_bak/test . && cp /tmp/bs_bak/pubspec.yaml /tmp/bs_bak/l10n.yaml /tmp/bs_bak/analysis_options.yaml .
 fi
 
-GRADLE=$(ls android/app/build.gradle.kts android/app/build.gradle 2>/dev/null | head -n1)
+   if [ -f android/app/build.gradle.kts ]; then GRADLE=android/app/build.gradle.kts; else GRADLE=android/app/build.gradle; fi
 MANIFEST=android/app/src/main/AndroidManifest.xml
 
 # applicationId must match the Firebase app: in.bhumisaathi.app
