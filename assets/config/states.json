@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "states": [
+    {
+      "id": "bihar", "name": {"en": "Bihar", "hi": "बिहार"},
+      "portalName": {"en": "Bihar Land Records Portal", "hi": "बिहार भूमि अभिलेख पोर्टल"},
+      "services": {
+        "record":   "https://biharbhumi.bihar.gov.in/",
+        "map":      "https://biharbhumi.bihar.gov.in/",
+        "khata":    "https://biharbhumi.bihar.gov.in/",
+        "mutation": "https://biharbhumi.bihar.gov.in/",
+        "revenue":  "https://biharbhumi.bihar.gov.in/"
+      },
+      "offices": [
+        {"type": "co", "url": "https://biharbhumi.bihar.gov.in/"},
+        {"type": "registry", "url": "https://registration.bihar.gov.in/"}
+      ],
+      "districts": [
+        {"id": "patna", "name": {"en": "Patna", "hi": "पटना"}},
+        {"id": "gopalganj", "name": {"en": "Gopalganj", "hi": "गोपालगंज"}},
+        {"id": "muzaffarpur", "name": {"en": "Muzaffarpur", "hi": "मुजफ्फरपुर"}},
+        {"id": "gaya", "name": {"en": "Gaya", "hi": "गया"}},
+        {"id": "saran", "name": {"en": "Saran", "hi": "सारण"}}
+      ]
+    },
+    {
+      "id": "up", "name": {"en": "Uttar Pradesh", "hi": "उत्तर प्रदेश"},
+      "portalName": {"en": "UP Bhulekh Portal", "hi": "यूपी भूलेख पोर्टल"},
+      "services": {
+        "record":   "https://upbhulekh.gov.in/",
+        "map":      "https://upbhulekh.gov.in/",
+        "khata":    "https://upbhulekh.gov.in/",
+        "mutation": "https://upbhulekh.gov.in/",
+        "revenue":  "https://upbhulekh.gov.in/"
+      },
+      "offices": [
+        {"type": "tehsil", "url": "https://upbhulekh.gov.in/"},
+        {"type": "registry", "url": "https://igrsup.gov.in/"}
+      ],
+      "districts": [
+        {"id": "lucknow", "name": {"en": "Lucknow", "hi": "लखनऊ"}},
+        {"id": "varanasi", "name": {"en": "Varanasi", "hi": "वाराणसी"}},
+        {"id": "kanpur", "name": {"en": "Kanpur Nagar", "hi": "कानपुर नगर"}},
+        {"id": "gorakhpur", "name": {"en": "Gorakhpur", "hi": "गोरखपुर"}}
+      ]
+    },
+    {
+      "id": "jharkhand", "name": {"en": "Jharkhand", "hi": "झारखंड"},
+      "portalName": {"en": "Jharkhand Land Records Portal", "hi": "झारखंड भूमि अभिलेख पोर्टल"},
+      "services": {
+        "record":   "https://jharbhumi.jharkhand.gov.in/",
+        "map":      "https://jharbhumi.jharkhand.gov.in/",
+        "khata":    "https://jharbhumi.jharkhand.gov.in/",
+        "mutation": "https://jharbhumi.jharkhand.gov.in/",
+        "revenue":  "https://jharbhumi.jharkhand.gov.in/"
+      },
+      "offices": [
+        {"type": "co", "url": "https://jharbhumi.jharkhand.gov.in/"},
+        {"type": "registry", "url": "https://jharkhandregistration.gov.in/"}
+      ],
+      "districts": [
+        {"id": "ranchi", "name": {"en": "Ranchi", "hi": "रांची"}},
+        {"id": "dhanbad", "name": {"en": "Dhanbad", "hi": "धनबाद"}},
+        {"id": "bokaro", "name": {"en": "Bokaro", "hi": "बोकारो"}}
+      ]
+    },
+    {
+      "id": "wb", "name": {"en": "West Bengal", "hi": "पश्चिम बंगाल", "bn": "পশ্চিমবঙ্গ"},
+      "portalName": {"en": "Banglarbhumi Portal", "hi": "बांग्लारभूमि पोर्टल"},
+      "services": {
+        "record":   "https://banglarbhumi.gov.in/",
+        "map":      "https://banglarbhumi.gov.in/",
+        "khata":    "https://banglarbhumi.gov.in/",
+        "mutation": "https://banglarbhumi.gov.in/",
+        "revenue":  "https://banglarbhumi.gov.in/"
+      },
+      "offices": [
+        {"type": "bl_lro", "url": "https://banglarbhumi.gov.in/"},
+        {"type": "registry", "url": "https://wbregistration.gov.in/"}
+      ],
+      "districts": [
+        {"id": "kolkata", "name": {"en": "Kolkata", "hi": "कोलकाता", "bn": "কলকাতা"}},
+        {"id": "howrah", "name": {"en": "Howrah", "hi": "हावड़ा", "bn": "হাওড়া"}},
+        {"id": "darjeeling", "name": {"en": "Darjeeling", "hi": "दार्जिलिंग", "bn": "দার্জিলিং"}}
+      ]
+    },
+    {
+      "id": "rajasthan", "name": {"en": "Rajasthan", "hi": "राजस्थान"},
+      "portalName": {"en": "Apna Khata Portal", "hi": "अपना खाता पोर्टल"},
+      "services": {
+        "record":   "https://apnakhata.raj.nic.in/",
+        "map":      "https://apnakhata.raj.nic.in/",
+        "khata":    "https://apnakhata.raj.nic.in/",
+        "mutation": "https://apnakhata.raj.nic.in/",
+        "revenue":  "https://apnakhata.raj.nic.in/"
+      },
+      "offices": [
+        {"type": "tehsil", "url": "https://apnakhata.raj.nic.in/"},
+        {"type": "registry", "url": "https://igrs.rajasthan.gov.in/"}
+      ],
+      "districts": [
+        {"id": "jaipur", "name": {"en": "Jaipur", "hi": "जयपुर"}},
+        {"id": "jodhpur", "name": {"en": "Jodhpur", "hi": "जोधपुर"}},
+        {"id": "udaipur", "name": {"en": "Udaipur", "hi": "उदयपुर"}}
+      ]
+    },
+    {
+      "id": "mp", "name": {"en": "Madhya Pradesh", "hi": "मध्य प्रदेश"},
+      "portalName": {"en": "MP Bhulekh Portal", "hi": "एमपी भूलेख पोर्टल"},
+      "services": {
+        "record":   "https://mpbhulekh.gov.in/",
+        "map":      "https://mpbhulekh.gov.in/",
+        "khata":    "https://mpbhulekh.gov.in/",
+        "mutation": "https://mpbhulekh.gov.in/",
+        "revenue":  "https://mpbhulekh.gov.in/"
+      },
+      "offices": [
+        {"type": "tehsil", "url": "https://mpbhulekh.gov.in/"},
+        {"type": "registry", "url": "https://mpigr.gov.in/"}
+      ],
+      "districts": [
+        {"id": "bhopal", "name": {"en": "Bhopal", "hi": "भोपाल"}},
+        {"id": "indore", "name": {"en": "Indore", "hi": "इंदौर"}},
+        {"id": "jabalpur", "name": {"en": "Jabalpur", "hi": "जबलपुर"}}
+      ]
+    }
+  ]
+}

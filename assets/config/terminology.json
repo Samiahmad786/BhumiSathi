@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "_note": "Add a language code under any term to translate it. Missing languages fall back to 'en'. Add a new state by adding a new key.",
+  "default": {
+    "record":   {"en": "Land Record", "hi": "भूमि अभिलेख"},
+    "map":      {"en": "Land Map", "hi": "भूमि नक्शा"},
+    "khata":    {"en": "Khata / Plot Search", "hi": "खाता / खसरा खोज"},
+    "mutation": {"en": "Mutation Status", "hi": "दाखिल-खारिज स्थिति"},
+    "revenue":  {"en": "Land Revenue", "hi": "भू-राजस्व"},
+    "office":   {"en": "Local Land Office", "hi": "स्थानीय भूमि कार्यालय"}
+  },
+  "states": {
+    "bihar": {
+      "record":   {"en": "Jamabandi", "hi": "जमाबंदी"},
+      "map":      {"en": "Bhu-Naksha", "hi": "भू-नक्शा"},
+      "khata":    {"en": "Khata / Khesra Search", "hi": "खाता / खेसरा खोज"},
+      "mutation": {"en": "Dakhil-Kharij", "hi": "दाखिल-खारिज"},
+      "revenue":  {"en": "Lagan (Land Rent)", "hi": "लगान"},
+      "office":   {"en": "Anchal / CO Office", "hi": "अंचल कार्यालय"}
+    },
+    "up": {
+      "record":   {"en": "Khatauni", "hi": "खतौनी"},
+      "map":      {"en": "Bhu-Naksha", "hi": "भू-नक्शा"},
+      "khata":    {"en": "Khata / Khasra Search", "hi": "खाता / खसरा खोज"},
+      "mutation": {"en": "Dakhil-Kharij", "hi": "दाखिल-खारिज"},
+      "revenue":  {"en": "Land Revenue", "hi": "भू-राजस्व"},
+      "office":   {"en": "Tehsil Office", "hi": "तहसील कार्यालय"}
+    },
+    "jharkhand": {
+      "record":   {"en": "Jamabandi", "hi": "जमाबंदी"},
+      "map":      {"en": "Bhu-Naksha", "hi": "भू-नक्शा"},
+      "khata":    {"en": "Khata / Plot Search", "hi": "खाता / प्लॉट खोज"},
+      "mutation": {"en": "Dakhil-Kharij", "hi": "दाखिल-खारिज"},
+      "revenue":  {"en": "Lagan (Land Rent)", "hi": "लगान"},
+      "office":   {"en": "Anchal Office", "hi": "अंचल कार्यालय"}
+    },
+    "wb": {
+      "record":   {"en": "Khatian (RoR)", "hi": "खतियान", "bn": "খতিয়ান"},
+      "map":      {"en": "Mouza Map", "hi": "मौजा नक्शा", "bn": "মৌজা ম্যাপ"},
+      "khata":    {"en": "Khatian / Dag Search", "hi": "खतियान / दाग खोज", "bn": "খতিয়ান / দাগ খুঁজুন"},
+      "mutation": {"en": "Mutation (Namjari)", "hi": "नामजारी", "bn": "নামজারি"},
+      "revenue":  {"en": "Land Revenue (Khajna)", "hi": "खजना", "bn": "খাজনা"},
+      "office":   {"en": "BL&LRO Office", "hi": "बीएलएंडएलआरओ कार्यालय", "bn": "বিএল ও এলআরও অফিস"}
+    },
+    "rajasthan": {
+      "record":   {"en": "Jamabandi (Apna Khata)", "hi": "जमाबंदी (अपना खाता)"},
+      "map":      {"en": "Land Map", "hi": "भूमि नक्शा"},
+      "khata":    {"en": "Khasra Search", "hi": "खसरा खोज"},
+      "mutation": {"en": "Mutation (Namantaran)", "hi": "नामांतरण"},
+      "revenue":  {"en": "Land Revenue", "hi": "भू-राजस्व"},
+      "office":   {"en": "Tehsil Office", "hi": "तहसील कार्यालय"}
+    },
+    "mp": {
+      "record":   {"en": "Khasra / B-1", "hi": "खसरा / बी-1"},
+      "map":      {"en": "Land Map", "hi": "भूमि नक्शा"},
+      "khata":    {"en": "Khasra Search", "hi": "खसरा खोज"},
+      "mutation": {"en": "Namantaran", "hi": "नामांतरण"},
+      "revenue":  {"en": "Land Revenue", "hi": "भू-राजस्व"},
+      "office":   {"en": "Tehsil / Patwari", "hi": "तहसील / पटवारी"}
+    }
+  }
+}

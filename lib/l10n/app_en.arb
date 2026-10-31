@@ -1,0 +1,72 @@
+{
+  "@@locale": "en",
+  "appName": "Bhumi Saathi",
+  "tagline": "Your land services, in one place",
+  "chooseLanguage": "Choose your language",
+  "continueBtn": "Continue",
+  "chooseState": "Choose your state",
+  "chooseDistrict": "Choose your district",
+  "save": "Save",
+  "navHome": "Home",
+  "navCalculator": "Calculator",
+  "navOffices": "Offices",
+  "navProfile": "Profile",
+  "namaste": "Namaste",
+  "landCalculator": "Land Calculator",
+  "officesLinks": "Offices & Links",
+  "helpFaq": "Help & FAQ",
+  "loading": "Loading…",
+  "retry": "Try again",
+  "noInternet": "No internet. Check your connection and try again.",
+  "loadError": "This page could not be loaded.",
+  "openInChrome": "This portal does not open inside the app. Opening it in a secure Chrome tab.",
+  "dataSource": "Data source: Official {state} Land Records Portal. This app is not affiliated with any government body.",
+  "captchaNote": "Fill any CAPTCHA or OTP yourself on the official site.",
+  "enterValue": "Enter area",
+  "fromUnit": "Unit",
+  "allResults": "All conversions",
+  "standardUsed": "Standard used: {name}",
+  "customValue": "Set custom value",
+  "useStandard": "Use standard",
+  "copy": "Copy",
+  "share": "Share",
+  "copied": "Copied",
+  "history": "History",
+  "clearHistory": "Clear",
+  "noHistory": "No conversions yet",
+  "language": "Language",
+  "changeLocation": "Change state / district",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfUse": "Terms of Use",
+  "deleteMyData": "Delete my data",
+  "deleteConfirm": "This removes your language, state, district and history from this phone.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "readAloud": "Read aloud",
+  "contactSupport": "Contact support",
+  "faqTitle": "Frequently asked questions",
+  "registryOffice": "Registry Office",
+  "openPortal": "Open official portal",
+  "faq1q": "Why does the portal ask for a CAPTCHA or OTP?",
+  "faq1a": "These are the official website's own checks. Fill them yourself. Bhumi Saathi never reads or fills them for you.",
+  "faq2q": "Are the area conversions legally valid?",
+  "faq2a": "No. They are for quick reference only. Local units differ by district, so confirm with your local land office before any deal.",
+  "faq3q": "The portal is slow or not loading. What now?",
+  "faq3a": "Government sites can get busy. Check your internet, tap Try again, or come back later.",
+  "privacyBody": "Bhumi Saathi does not ask you to sign in. Your language, state, district and calculator history are stored only on this phone. We do not collect your name, phone number or land records. Government portals that open inside the app belong to those portals and follow their own privacy rules. Use Profile > Delete my data to remove everything stored on this phone.",
+  "termsBody": "Bhumi Saathi is an independent helper app. It is not affiliated with, endorsed by or run by any government body. Records and services shown come from official portals and may change or be unavailable. Area conversions are approximate and are not legal advice. Always confirm with your local land office.",
+  "@dataSource": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@standardUsed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

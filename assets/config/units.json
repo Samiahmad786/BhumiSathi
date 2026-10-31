@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "_warning": "Local units vary by district and by official record. Values marked verified:false are commonly used figures and MUST be checked against official sources before release.",
+  "base": [
+    {"id": "sqft",    "sqft": "1",             "name": {"en": "Sq Ft", "hi": "वर्ग फुट"}},
+    {"id": "sqm",     "sqft": "10.7639104167", "name": {"en": "Sq Meter", "hi": "वर्ग मीटर"}},
+    {"id": "decimal", "sqft": "435.6",         "name": {"en": "Decimal", "hi": "डिसमिल"}},
+    {"id": "acre",    "sqft": "43560",         "name": {"en": "Acre", "hi": "एकड़"}}
+  ],
+  "standards": {
+    "bihar": {
+      "label": "Bihar – standard", "verified": false,
+      "units": [
+        {"id": "katha", "sqft": "720",   "name": {"en": "Katha", "hi": "कट्ठा"}},
+        {"id": "dhur",  "sqft": "36",    "name": {"en": "Dhur", "hi": "धुर"}},
+        {"id": "bigha", "sqft": "14400", "name": {"en": "Bigha", "hi": "बीघा"}}
+      ],
+      "districtOverrides": {
+        "muzaffarpur": {"label": "Muzaffarpur – local", "units": {"katha": "1361.25", "dhur": "68.0625", "bigha": "27225"}}
+      }
+    },
+    "up": {
+      "label": "UP – standard", "verified": false,
+      "units": [
+        {"id": "bigha", "sqft": "27000", "name": {"en": "Bigha", "hi": "बीघा"}},
+        {"id": "biswa", "sqft": "1350",  "name": {"en": "Biswa", "hi": "बिस्वा"}}
+      ]
+    },
+    "jharkhand": {
+      "label": "Jharkhand – standard", "verified": false,
+      "units": [
+        {"id": "katha", "sqft": "720",   "name": {"en": "Katha", "hi": "कट्ठा"}},
+        {"id": "dhur",  "sqft": "36",    "name": {"en": "Dhur", "hi": "धुर"}},
+        {"id": "bigha", "sqft": "14400", "name": {"en": "Bigha", "hi": "बीघा"}}
+      ]
+    },
+    "wb": {
+      "label": "West Bengal – standard", "verified": false,
+      "units": [
+        {"id": "katha", "sqft": "720",   "name": {"en": "Katha", "hi": "कट्ठा", "bn": "কাঠা"}},
+        {"id": "chatak","sqft": "45",    "name": {"en": "Chatak", "hi": "छटाक", "bn": "ছটাক"}},
+        {"id": "bigha", "sqft": "14400", "name": {"en": "Bigha", "hi": "बीघा", "bn": "বিঘা"}}
+      ]
+    },
+    "rajasthan": {
+      "label": "Rajasthan – standard", "verified": false,
+      "units": [
+        {"id": "bigha", "sqft": "27225", "name": {"en": "Bigha (Pucca)", "hi": "बीघा (पक्का)"}},
+        {"id": "biswa", "sqft": "1361.25", "name": {"en": "Biswa", "hi": "बिस्वा"}}
+      ]
+    },
+    "mp": {
+      "label": "Madhya Pradesh – standard", "verified": false,
+      "units": [
+        {"id": "bigha", "sqft": "12000", "name": {"en": "Bigha", "hi": "बीघा"}},
+        {"id": "hectare","sqft": "107639.104", "name": {"en": "Hectare", "hi": "हेक्टेयर"}}
+      ]
+    },
+    "gujarat": {
+      "label": "Gujarat / Maharashtra – standard", "verified": false,
+      "units": [
+        {"id": "guntha", "sqft": "1089", "name": {"en": "Guntha", "hi": "गुंठा", "gu": "ગુંઠા", "mr": "गुंठा"}}
+      ]
+    }
+  }
+}
